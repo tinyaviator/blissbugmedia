@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #bb91ff;
+    background-color: #ffa0e7;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 10px 5px 0 5px;
@@ -18,16 +18,16 @@ body {
     border-radius: 50%;
     border: 2px solid black;
     width: 55px;
-    background-color: palevioletred;
+    background-color: #9dfc85;
 }
 
 .pageButton {
     border-radius: 25px;
-    background-color: palevioletred;
+    background-color: #9dfc85;
     border: 2px solid black;
     padding: 5px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a {
@@ -37,7 +37,7 @@ a {
 
 .pageButton:hover, a:hover {
     text-decoration: underline;
-    color: blue;
+    color: #ff5353;
 }
 
 #header {
@@ -57,6 +57,6 @@ p {
 }
 
 #selected {
-    color: lightskyblue;
+    color: #fd6c6c;
     text-decoration: underline;
 }
