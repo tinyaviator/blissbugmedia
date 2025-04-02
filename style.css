@@ -1,0 +1,62 @@
+.winky {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #bb91ff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 5px 0 5px;
+    text-align: center;
+    color: white;
+}
+
+.imageSwitch {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 55px;
+    background-color: palevioletred;
+}
+
+.pageButton {
+    border-radius: 25px;
+    background-color: palevioletred;
+    border: 2px solid black;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.pageButton:hover, a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#header {
+    font-size: 50px;
+    margin: 2px 0;
+}
+
+h2 {
+    text-decoration: underline;
+    margin: 5px 0 0 0;
+    font-size: 35px;
+}
+
+p {
+    margin: 0 0 5px 0;
+    font-size: 27px;
+}
+
+#selected {
+    color: lightskyblue;
+    text-decoration: underline;
+}
