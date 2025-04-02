@@ -60,3 +60,8 @@ p {
     color: #fd6c6c;
     text-decoration: underline;
 }
+
+.important {
+    font-style: italic;
+    color: blue;
+}
