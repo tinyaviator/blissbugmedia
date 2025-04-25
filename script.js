@@ -1,8 +1,10 @@
-document.querySelectorAll(".imageSwitch").forEach(object => {
-    object.addEventListener("mouseenter", () => {
-        object.src = object.getAttribute("img2");
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('.opacity').forEach((img) => {
+        img.addEventListener('mouseenter', () => {
+        img.style.opacity = '0.5';
+        }); 
+        img.addEventListener('mouseleave', () => {
+        img.style.opacity = '1';
+        });
     })
-    object.addEventListener("mouseleave", () => {
-        object.src = object.getAttribute("img1");
-    })
-})
+});
